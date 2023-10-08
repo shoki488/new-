@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+ <link rel="stylesheet" href="main.css">
+ <script src="main.js"></script>
+ <title>電卓</title>
+ </head>
+ 
+ <body>
+    <form name="dentaku">
+  <table>
+     <tr>
+         <td colspan="4">
+             <input type="text" class="display" name="display" value="" disabled>
+         </td>
+     </tr>
+ 
+     <tr>
+         <td>
+             <input type="button" value="7" onclick="get_calc(this)">
+         </td>
+         <td>
+             <input value="8" onclick="get_calc(this)" type="button">
+         </td>
+         <td>
+             <input value="9" onclick="get_calc(this)" type="button">
+         </td>
+         <td>
+             <input value="+" onclick="get_calc(this)" type="button">
+         </td>
+     </tr>
+     
+     
+     
+      <tr>
+         <td>
+             <input value="4" onclick="get_calc(this)" type="button">
+         </td>
+         <td>
+             <input value="5" onclick="get_calc(this)" type="button">
+         </td>
+         <td>
+             <input value="6" onclick="get_calc(this)" type="button">
+         </td>
+         <td>
+             <input value="-" onclick="get_calc(this)" type="button">
+         </td>
+      </tr>
+     
+     
+     
+         <tr>
+         <td>
+             <input value="1" onclick="get_calc(this)" type="button">
+         </td>
+         <td>
+             <input value="2" onclick="get_calc(this)" type="button">
+         </td>
+         <td>
+             <input value="3" onclick="get_calc(this)" type="button">
+         </td>
+         <td>
+             <input value="*" onclick="get_calc(this)" name="multi_btn" type="button">
+         </td>
+        </tr>
+     
+        
+         <tr>
+         <td>
+            <input value="0" onclick="get_calc(this)" type="button">
+         </td>
+         <td>
+             <input value="00" onclick="get_calc(this)" type="button">
+         </td>
+         <td>
+             <input value="." onclick="get_calc(this)" type="button">
+         </td>
+         <td>
+             <input value="/"  onclick="get_calc(this)" name="div_btn" type="button">
+         </td>
+        </tr>
+     
+     
+     
+         <tr>
+         <td colspan="2">
+             <input value="AC" onclick="get_calc(this)" type="button">
+         </td>
+         <td colspan="2">
+             <input value="=" onclick="get_calc(this)" type="button">
+         </td>
+         <td></td>
+        </tr>
+     
+     
+  </table>
+  </form>
+    
+ </body>
+ </heml>
